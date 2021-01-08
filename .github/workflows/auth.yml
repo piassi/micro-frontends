@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       tags:
-        description: 'Describe why you're deploying'
+        description: 'Describe why you are deploying'
 
 
 defaults:
