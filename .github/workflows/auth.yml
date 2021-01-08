@@ -8,7 +8,7 @@ on:
       - "packages/auth/**"
   workflow_dispatch:
     inputs:
-      description:
+      reason:
         description: 'Describe why you're deploying'
         required: true
         default: ''
