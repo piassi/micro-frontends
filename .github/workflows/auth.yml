@@ -6,12 +6,11 @@ on:
       - master
     paths:
       - "packages/auth/**"
+      
   workflow_dispatch:
     inputs:
-      reason:
+      tags:
         description: 'Describe why you're deploying'
-        required: true
-        default: ''
 
 
 defaults:
